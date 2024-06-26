@@ -36,6 +36,7 @@ unikraft:
   version: staging
   kconfig:
     CONFIG_LIBRAMFS: "y"
+    CONFIG_LIBUK9P: "y"
     CONFIG_LIBUKBUS: "y"
     CONFIG_LIBUKCPIO: "y"
     CONFIG_LIBUKDEBUG_ANSI_COLOR: "y"
